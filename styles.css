@@ -41,8 +41,12 @@
 }
 
 .overview{               /* text on index.html page */
-    background-color: #000057;
+    background-color: #000030;
     font-family: 'Times New Roman';
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    line-height: 2;
 }
 
 .ovPadLeft{               /* overview padding */
@@ -59,7 +63,7 @@
 }
 
 .showcase{               /* header/image on index.html  */
-    background-color: lightgray; 
+    background-color: white; 
     margin-top: 75px;
 }
 
@@ -93,6 +97,10 @@ h3 {                        /* all h3 elements  */
 
 hr {                           /* all horizontal line break elements  */
     border-width: 8px;
+    background-color: white;
+    border-color: white;
+    margin-left: 2%;
+    margin-right: 5%;
 }
 
 .author-container {                        /* author page details  */
@@ -237,7 +245,15 @@ hr {                           /* all horizontal line break elements  */
 }
 
 .welcome {
-    font-size: 80px;
+    font-size: 50px;
     font-family: 'Trebuchet MS';
     color: black
+}
+
+.thankYou {
+    background-color: white;
+    font-family: 'Trebuchet MS';
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
 }
